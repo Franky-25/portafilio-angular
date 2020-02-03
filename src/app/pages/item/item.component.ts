@@ -10,6 +10,8 @@ import { ProductoDescripcion } from '../../interfaces/producto-descripcion.inter
 })
 export class ItemComponent implements OnInit {
 
+  anio: number = new Date().getFullYear();
+
   producto: ProductoDescripcion;
   id: string;
 
